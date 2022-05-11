@@ -1,5 +1,10 @@
 .cookies {
-    background-color: antiquewhite;
+    background-color: rgb(250, 235, 215);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
 }
 .cookies h1,p,button{
     font-family: 'Baloo Thambi 2', cursive;

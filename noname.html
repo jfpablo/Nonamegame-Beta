@@ -9,23 +9,26 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/font-import.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./assets/js/function.js"></script>
 </head>
 <body>
     <header>
-        <h1>Noname.io</h1>
+        <h1 id="idtitlepage">Noname.io</h1>
     </header>
-    <div class="container">
-
-    </div>
-    <footer>
-        <div class="cookies">
+    <section class="container" id="idcontainer">
+        <button class="tog-fullscreen" onclick="functiontogfullscreen();"><ion-icon name="scan-outline" class="iscan"></ion-icon></button>
+    </section>
+    <!-- <footer>
+        <div class="cookies" id="idcookies">
             <h1>Notre site fait appel à des cookies</h1>
             <p>Notre jeu utilise des cookies pour enregistrer votre sauvegarde, accepter ou un draumadaire vas vous manger les pieds a 3H00 du matin</p>
             <div class="cookiesanswer">
-                <button id="cookiesno" class="cookies-no">Vas boire de l'essence</button>
-                <button id="cookiesyes class="cookies-yes">Je suis d'accord</button>
-            </div>
+                <button onclick="fermerlescookies();" id="cookiesno">Vas boire de l'essence</button>
+                <button>Je suis d'accord</button>
+             </div><br></div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
